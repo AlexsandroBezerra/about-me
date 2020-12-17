@@ -1,7 +1,11 @@
-export default function Home() {
+import { Container } from '../styles/pages/Home'
+
+const Home: React.FC = () => {
   return (
-    <div>
+    <Container>
       <h1>Hello World</h1>
-    </div>
+    </Container>
   )
 }
+
+export default Home
