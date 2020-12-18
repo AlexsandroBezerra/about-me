@@ -1,4 +1,16 @@
-import styled from 'styled-components'
+import styled, { keyframes } from 'styled-components'
+
+const appearFromBottom = keyframes`
+  from {
+    opacity: .1;
+    transform: translateX(96px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+`
 
 export const Container = styled.div`
   text-align: center;
@@ -8,6 +20,8 @@ export const Container = styled.div`
   flex-direction: column;
 
   img {
+    animation: ${appearFromBottom} 0.8s;
+
     width: 18rem;
     height: 18rem;
     border-radius: 50%;
@@ -17,11 +31,13 @@ export const Container = styled.div`
   }
 
   h1 {
+    animation: ${appearFromBottom} 1.2s ease-out;
     font-size: 5.6rem;
     margin: 0 4rem;
   }
 
   p {
+    animation: ${appearFromBottom} 1.2s ease-out;
     margin: 2.4rem 4rem;
     font-size: 2.4rem;
     color: #666;
@@ -29,6 +45,8 @@ export const Container = styled.div`
 `
 
 export const ButtonsContainer = styled.div`
+  animation: ${appearFromBottom} 2s ease;
+
   display: flex;
   flex-wrap: wrap;
 
