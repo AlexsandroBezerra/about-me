@@ -19,17 +19,6 @@ export const Container = styled.div`
   align-items: center;
   flex-direction: column;
 
-  img {
-    animation: ${appearFromBottom} 0.8s;
-
-    width: 18rem;
-    height: 18rem;
-    border-radius: 50%;
-
-    border: 0.1rem solid #333;
-    margin: 4.8rem auto;
-  }
-
   h1 {
     animation: ${appearFromBottom} 1.2s ease-out;
     font-size: 5.6rem;
@@ -41,6 +30,23 @@ export const Container = styled.div`
     margin: 2.4rem 4rem;
     font-size: 2.4rem;
     color: #666;
+  }
+`
+
+export const ImageContainer = styled.div`
+  animation: ${appearFromBottom} 0.8s;
+  margin: 4.8rem auto;
+  border-radius: 50%;
+  border: 0.1rem solid #333;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    width: 18rem;
+    height: 18rem;
+    border-radius: 50%;
   }
 `
 
