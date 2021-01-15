@@ -1,14 +1,13 @@
 import Head from 'next/head'
+import { AppProps } from 'next/app'
 
 import GlobalStyle from '../styles/global'
-import { AppProps } from 'next/app'
 
 const MyApp: React.FC<AppProps> = ({ Component, pageProps }) => {
   return (
     <>
       <Head>
-        <title>Alexsandro G Bezerra | Links</title>
-        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+        <meta name="author" content="John Doe" />
       </Head>
 
       <GlobalStyle />
