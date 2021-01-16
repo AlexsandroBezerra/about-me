@@ -10,7 +10,36 @@ export default function Projects(): JSX.Element {
   return (
     <>
       <Head>
-        <title>Alexsandro G Bezerra | Links</title>
+        <title>Alexsandro G Bezerra | Personal Projects</title>
+        <meta name="title" content="Alexsandro G Bezerra | Personal Projects" />
+        <meta
+          name="description"
+          content="Some personal projects that I created to study."
+        />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://alexbezerra.xyz/" />
+        <meta
+          property="og:title"
+          content="Alexsandro G Bezerra | Personal Projects"
+        />
+        <meta
+          property="og:description"
+          content="Some personal projects that I created to study."
+        />
+        <meta property="og:image" content="/seo-projects.png" />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://alexbezerra.xyz/" />
+        <meta
+          property="twitter:title"
+          content="Alexsandro G Bezerra | Personal Projects"
+        />
+        <meta
+          property="twitter:description"
+          content="Some personal projects that I created to study."
+        />
+        <meta property="twitter:image" content="/seo-projects.png" />
       </Head>
 
       <Header description="Personal Projects" />

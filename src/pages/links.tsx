@@ -12,6 +12,29 @@ export default function Links(): JSX.Element {
     <>
       <Head>
         <title>Alexsandro G Bezerra | Links</title>
+        <meta name="title" content="Alexsandro G Bezerra | Links" />
+        <meta
+          name="description"
+          content="Social networks links, LinkedIn, Github..."
+        />
+
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://alexbezerra.xyz/" />
+        <meta property="og:title" content="Alexsandro G Bezerra | Links" />
+        <meta
+          property="og:description"
+          content="Social networks links, LinkedIn, Github..."
+        />
+        <meta property="og:image" content="/seo-links.png" />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://alexbezerra.xyz/" />
+        <meta property="twitter:title" content="Alexsandro G Bezerra | Links" />
+        <meta
+          property="twitter:description"
+          content="Social networks links, LinkedIn, Github..."
+        />
+        <meta property="twitter:image" content="/seo-links.png" />
       </Head>
 
       <Header description="Links" />
