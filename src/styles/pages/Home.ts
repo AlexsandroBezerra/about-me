@@ -1,95 +1,26 @@
 import styled, { keyframes } from 'styled-components'
 
-const appearFromBottom = keyframes`
+const appearFromRight = keyframes`
   from {
-    opacity: .1;
-    transform: translateX(96px);
+    opacity: 0;
+    transform: translateX(20px);
   }
 
   to {
     opacity: 1;
-    transform: translateY(0px);
+    transform: translateX(0px);
   }
 `
 
-export const Container = styled.div`
-  text-align: center;
-
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-
-  h1 {
-    animation: ${appearFromBottom} 1.2s ease-out;
-    font-size: 5.6rem;
-    margin: 0 4rem;
-  }
-
-  p {
-    animation: ${appearFromBottom} 1.2s ease-out;
-    margin: 2.4rem 4rem;
-    font-size: 2.4rem;
-    color: #666;
-  }
-`
-
-export const ImageContainer = styled.div`
-  animation: ${appearFromBottom} 0.8s;
-  margin: 4.8rem auto;
-  border-radius: 50%;
-  border: 0.1rem solid #333;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  img {
-    width: 18rem;
-    height: 18rem;
-    border-radius: 50%;
-  }
-`
-
-export const ButtonsContainer = styled.div`
-  animation: ${appearFromBottom} 2s ease;
+export const Main = styled.main`
+  animation: ${appearFromRight} 1s;
 
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 32px;
 
-  margin: 3.2rem;
-  padding: 3.2rem;
-  width: 100%;
-  max-width: 90rem;
-
-  a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex: 1;
-
-    border: 0.1rem solid #333;
-    font-size: 2.8rem;
-    color: #333;
-    text-decoration: none;
-    margin: 3.2rem;
-
-    height: 9.6rem;
-    padding: 3.2rem;
-    border-radius: 1.6rem;
-
-    h3 {
-      margin-left: 0.8rem;
-    }
-
-    &:hover {
-      color: #107fd2;
-      border: 0.1rem solid #107fd2;
-    }
-  }
-
-  @media (min-width: 900px) {
-    a {
-      min-width: 32rem;
-    }
-  }
+  max-width: 976px;
+  margin: 5.6rem auto;
+  padding: 0 2.4rem;
 `

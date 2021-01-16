@@ -12,12 +12,13 @@ export default createGlobalStyle`
   }
 
   body {
-    background: #f5f5f5;
-    color: #333;
+    background: ${props => props.theme.background};
+    color: ${props => props.theme.text};
+    font-weight: bold;
   }
 
   body, input, button {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     font-size: 1.6rem;
   }
 
@@ -28,12 +29,6 @@ export default createGlobalStyle`
   @media(min-width: 900px) {
     :root {
       font-size: 62.5%;
-    }
-  }
-
-  @media(max-width: 350px) {
-    :root {
-      font-size: 58.5%;
     }
   }
 `
