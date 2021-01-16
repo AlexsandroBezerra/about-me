@@ -7,6 +7,7 @@ interface ButtonProps {
   href: string
   title: string
   description: string
+  externalLink?: boolean
   icon: React.ComponentType<IconBaseProps>
 }
 
@@ -17,7 +18,7 @@ export default function Button({
   icon: Icon
 }: ButtonProps): JSX.Element {
   return (
-    <Link href={href}>
+    <Link href={href} passHref scroll={false}>
       <Container>
         <div>
           <Icon size={20} />

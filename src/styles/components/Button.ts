@@ -4,6 +4,7 @@ export const Container = styled.a`
   display: block;
   background: ${props => props.theme.box};
   border: 2px solid ${props => props.theme.box};
+  text-decoration: none;
 
   padding: 4rem;
   flex: 1;

@@ -17,11 +17,12 @@ export default function Home(): JSX.Element {
 
       <Main>
         <Button
-          href="/"
+          href="/links"
           icon={FiLink}
           title="Links"
           description="Social network links, LinkedIn, Github..."
         />
+
         <Button
           href="/"
           icon={FiCpu}
