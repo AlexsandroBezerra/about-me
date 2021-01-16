@@ -24,7 +24,7 @@ export default function Home(): JSX.Element {
         />
 
         <Button
-          href="/"
+          href="/projects"
           icon={FiCpu}
           title="Personal Projects"
           description="Some personal projects I created to study."

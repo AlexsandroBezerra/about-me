@@ -7,7 +7,7 @@ import Header from '../components/Header'
 
 import { Main } from '../styles/pages/Home'
 
-export default function Home(): JSX.Element {
+export default function Links(): JSX.Element {
   return (
     <>
       <Head>
