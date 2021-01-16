@@ -4,8 +4,11 @@ import { IoRocketOutline } from 'react-icons/io5'
 
 import Button from '../components/Button'
 import Header from '../components/Header'
+import SEOImg from '../assets/seo-links.png'
 
 import { Main } from '../styles/pages/Home'
+
+const baseUrl = 'https://alexbezerra.xyz'
 
 export default function Links(): JSX.Element {
   return (
@@ -15,26 +18,30 @@ export default function Links(): JSX.Element {
         <meta name="title" content="Alexsandro G Bezerra | Links" />
         <meta
           name="description"
-          content="Social networks links, LinkedIn, Github..."
+          content="Social network links, LinkedIn, Github..."
         />
 
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://alexbezerra.xyz/" />
         <meta property="og:title" content="Alexsandro G Bezerra | Links" />
+        <meta property="og:site_name" content="Alexsandro G Bezerra | Links" />
+        <meta property="og:url" content="https://alexbezerra.xyz/links" />
+        <meta property="og:image:type" content="image/png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image" content={`${baseUrl}/${SEOImg}`} />
         <meta
           property="og:description"
-          content="Social networks links, LinkedIn, Github..."
+          content="Social network links, LinkedIn, Github..."
         />
-        <meta property="og:image" content="/seo-links.png" />
 
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://alexbezerra.xyz/" />
+        <meta property="twitter:url" content="https://alexbezerra.xyz/links" />
         <meta property="twitter:title" content="Alexsandro G Bezerra | Links" />
+        <meta property="twitter:image" content={`${baseUrl}/${SEOImg}`} />
         <meta
           property="twitter:description"
-          content="Social networks links, LinkedIn, Github..."
+          content="Social network links, LinkedIn, Github..."
         />
-        <meta property="twitter:image" content="/seo-links.png" />
       </Head>
 
       <Header description="Links" />
