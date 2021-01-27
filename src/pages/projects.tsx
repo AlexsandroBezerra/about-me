@@ -73,10 +73,10 @@ export default function Projects(): JSX.Element {
         />
 
         <Button
-          href="/projects"
+          href="https://traveler.alexbezerra.xyz"
           icon={FiCompass}
           title="Traveler"
-          description="Coming soon..."
+          description="A site for those who want to visit cities in Ceará."
         />
       </Main>
     </>
