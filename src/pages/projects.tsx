@@ -73,7 +73,7 @@ export default function Projects(): JSX.Element {
         />
 
         <Button
-          href="https://traveler.alexbezerra.xyz"
+          href="https://github.com/AlexsandroBezerra/traveler"
           icon={FiCompass}
           title="Traveler"
           description="A site for those who want to visit cities in Ceará."
