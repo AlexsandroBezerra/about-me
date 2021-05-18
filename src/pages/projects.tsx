@@ -3,7 +3,7 @@ import { FiScissors, FiCalendar, FiCompass } from 'react-icons/fi'
 
 import Button from '../components/Button'
 import Header from '../components/Header'
-import SEOImg from '../assets/seo-projects.png'
+import SEOImg from '../assets/seo-image.png'
 
 import { Main } from '../styles/pages/Home'
 

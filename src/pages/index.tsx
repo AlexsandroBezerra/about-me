@@ -3,7 +3,7 @@ import { FiLink, FiCpu } from 'react-icons/fi'
 
 import Button from '../components/Button'
 import Header from '../components/Header'
-import SEOImg from '../assets/seo-home.png'
+import SEOImg from '../assets/seo-image.png'
 
 import { Main } from '../styles/pages/Home'
 

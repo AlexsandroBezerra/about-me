@@ -4,7 +4,7 @@ import { IoRocketOutline } from 'react-icons/io5'
 
 import Button from '../components/Button'
 import Header from '../components/Header'
-import SEOImg from '../assets/seo-links.png'
+import SEOImg from '../assets/seo-image.png'
 
 import { Main } from '../styles/pages/Home'
 
