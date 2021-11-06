@@ -3,11 +3,8 @@ import { FiLink, FiCpu } from 'react-icons/fi'
 
 import Button from '../components/Button'
 import Header from '../components/Header'
-import SEOImg from '../assets/seo-image.png'
 
 import { Main } from '../styles/pages/Home'
-
-const baseUrl = 'https://alexbezerra.xyz'
 
 export default function Home(): JSX.Element {
   return (
@@ -24,7 +21,7 @@ export default function Home(): JSX.Element {
         <meta property="og:image:type" content="image/png" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
-        <meta property="og:image" content={`${baseUrl}/${SEOImg}`} />
+        <meta property="og:image" content="/seo-image.png" />
         <meta
           property="og:description"
           content="Using my knowledge to help people."
@@ -33,7 +30,7 @@ export default function Home(): JSX.Element {
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="https://alexbezerra.xyz" />
         <meta property="twitter:title" content="Alexsandro G Bezerra" />
-        <meta property="twitter:image" content={`${baseUrl}/${SEOImg}`} />
+        <meta property="twitter:image" content="/seo-image.png" />
         <meta
           property="twitter:description"
           content="Using my knowledge to help people."

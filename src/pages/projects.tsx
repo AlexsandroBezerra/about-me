@@ -3,11 +3,8 @@ import { FiScissors, FiCalendar, FiCompass } from 'react-icons/fi'
 
 import Button from '../components/Button'
 import Header from '../components/Header'
-import SEOImg from '../assets/seo-image.png'
 
 import { Main } from '../styles/pages/Home'
-
-const baseUrl = 'https://alexbezerra.xyz'
 
 export default function Projects(): JSX.Element {
   return (
@@ -33,7 +30,7 @@ export default function Projects(): JSX.Element {
         <meta property="og:image:type" content="image/png" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
-        <meta property="og:image" content={`${baseUrl}/${SEOImg}`} />
+        <meta property="og:image" content="/seo-image.png" />
         <meta
           property="og:description"
           content="Some personal projects I created to study."
@@ -48,7 +45,7 @@ export default function Projects(): JSX.Element {
           property="twitter:title"
           content="Alexsandro G Bezerra | Personal Projects"
         />
-        <meta property="twitter:image" content={`${baseUrl}/${SEOImg}`} />
+        <meta property="twitter:image" content="/seo-image.png" />
         <meta
           property="twitter:description"
           content="Some personal projects I created to study."
